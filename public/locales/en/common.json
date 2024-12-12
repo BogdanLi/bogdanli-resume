@@ -1,0 +1,20 @@
+{
+  "name": "Bogdan Li",
+  "description": "React Developer, Course Instructor",
+  "contacts": {
+    "title": "Contacts"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "education": {
+    "title": "Education",
+    "degree": "High School Degree",
+    "school": "Federal State Government Institution Secondary School №6"
+  },
+  "langs": {
+    "title": "Languages",
+    "ru": "Russian",
+    "en": "English"
+  }
+}
