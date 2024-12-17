@@ -1,6 +1,8 @@
 import ContactsSection from "./ContactsSection";
 import EducationSection from "./EducationSection";
+import ExperienceSection from "./ExperienceSection";
 import LanguagesSection from "./LanguagesSection";
+import ProfileSection from "./ProfileSection";
 import SkillsSection from "./SkillsSection";
 import Divider from "./ui/Divider";
 
@@ -16,7 +18,11 @@ export default function Main() {
         <Divider variant="dotted" />
         <LanguagesSection />
       </div>
-      <div className="order-2 lg:col-span-7 py-4 ps-4 md:pe-12 space-y-6"></div>
+      <div className="order-2 lg:col-span-7 py-4 ps-4 md:pe-12 space-y-6">
+        <ProfileSection />
+        <Divider variant="dotted" />
+        <ExperienceSection />
+      </div>
     </div>
   );
 }
