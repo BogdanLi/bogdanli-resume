@@ -1,6 +1,8 @@
 {
   "name": "Bogdan Li",
   "description": "React Developer, Course Instructor",
+  "present": "Present",
+  "loading": "Loading",
   "contacts": {
     "title": "Contacts"
   },
@@ -16,5 +18,9 @@
     "title": "Languages",
     "ru": "Russian",
     "en": "English"
+  },
+  "profile": {
+    "title": "Profile",
+    "description": "Front-End Developer with extensive experience in modern JavaScript frameworks and libraries, specializing in React.js. Proficient in TypeScript, Tailwind CSS, and Material UI. Demonstrates versatility across diverse project environments and a strong commitment to professional growth. Proven track record in developing sophisticated landing pages and robust administrative interfaces. Adept at quickly adapting to new technologies and methodologies to drive project success."
   }
 }
