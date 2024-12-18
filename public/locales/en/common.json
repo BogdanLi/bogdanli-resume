@@ -2,6 +2,7 @@
   "name": "Bogdan Li",
   "description": "React Developer, Course Instructor",
   "present": "Present",
+  "loading": "Loading",
   "contacts": {
     "title": "Contacts"
   },
