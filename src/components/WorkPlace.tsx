@@ -10,8 +10,6 @@ type Props = {
 export default function WorkPlace({ job }: Props) {
   const { i18n, t } = useTranslation();
 
-  console.log(getMonth(dayjs(job.start_date).format("MM"), i18n.language));
-
   const start = `${getMonth(
     dayjs(job.start_date).format("MM"),
     i18n.language
