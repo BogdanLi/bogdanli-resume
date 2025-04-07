@@ -1,50 +1,65 @@
-# React + TypeScript + Vite
+<h1 align="center">Bogdan Li</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# `bogdanli-resume`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Web version of resume, built on React as Frontend and Supabase as Backend and DB
 
-## Expanding the ESLint configuration
+# 🌐 Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[View live demo here](https://resume.bogdan-li.xyz/)
 
-- Configure the top-level `parserOptions` property like this:
+<div style="display: grid; gap: 1rem; grid-template-columns: 2fr 1fr">
+    <img src="/public/preview-desktop.png" width="512px" />
+    <img src="/public/preview-mobile.png" width="256px" />
+</div>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# 💎 Features
+
+- Simple minimalistic design based on resume template
+- Adaptive design both for desktop and mobile
+- Internationalization using i18next for Russian and English
+
+# 🛠️ Tech stack
+
+- 🚀 `React.js` + `TypeScript`
+- ✨ `TailwindCSS`
+- ⚙️ `Supabase`
+- 🧰 `prettier` + `prettier-plugin-tailwindcss`
+- 🎩 `heroicons`
+- 🇬🇧🇷🇺 `i18next` + `react-i18next` + `i18next-browser-languagedetector` + `i18next-http-backend`
+
+# 👷 Get Started
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/BogdanLi/bogdanli-resume.git
+
+cd bogdanli-resume
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Install dependencies
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
 ```
+
+3. Run locally
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm run dev
+```
+
+# 📃 License
+
+MIT License
