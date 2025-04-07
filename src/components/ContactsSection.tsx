@@ -53,7 +53,7 @@ export default function ContactsSection() {
               className="flex gap-2 items-center"
             >
               <GlobeAltIcon className="w-4 h-4 stroke-black" />
-              {contacts[0].website.slice(12)}
+              {contacts[0].website.replace("https://", "").replace("/", "")}
             </a>
           </>
         )}
